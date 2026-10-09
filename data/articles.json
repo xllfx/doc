@@ -1,0 +1,288 @@
+{
+    "site": {
+        "name": "文档下载站",
+        "slogan": "精选文档资源，提取码验证后即可下载",
+        "contact": "517383843@qq.com"
+    },
+    "categories": [
+        "全部",
+        "电脑软件",
+        "手机软件",
+        "学习资料",
+        "办公模板"
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "title": "7-zip 压缩软件完整使用手册",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "cover": "",
+            "excerpt": "本文详细介绍 7-zip 的安装、右键菜单配置、分卷压缩、加密压缩与命令行用法，并对比了与 WinRAR、Bandizip 的差异，附带常见报错的排查方法。",
+            "size": "2.4 MB",
+            "pages": 28,
+            "views": 1286,
+            "date": "2026-09-20",
+            "marks": [
+                "pinned",
+                "m91ee6a"
+            ],
+            "pinned": 1,
+            "hot": 0,
+            "status": 0,
+            "tags": [
+                "置顶",
+                "免费"
+            ],
+            "pans": [
+                {
+                    "pan": "quark",
+                    "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihobj4mMx9dU1gmKDg=",
+                    "code": "abcd"
+                },
+                {
+                    "pan": "baidu",
+                    "linkEnc": "LDs3QkMIGXw5NStlJzgtKzYcU11bfDp7dC8qOnM1KkJdU1gmKDg=",
+                    "code": "8888"
+                }
+            ],
+            "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihobj4mMx9dU1gmKDg="
+        },
+        {
+            "id": 2,
+            "title": "Everything 文件搜索技巧合集",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "size": "1.8 MB",
+            "pages": 22,
+            "tags": [],
+            "pinned": 0,
+            "views": 964,
+            "date": "2026-09-18",
+            "thumb": "",
+            "excerpt": "汇总 Everything 的高级搜索语法，包括正则表达式、通配符、按日期与大小筛选、以及通过 HTTP 服务器实现局域网共享索引的实战配置。",
+            "appcode": "",
+            "pans": [
+                {
+                    "pan": "quark",
+                    "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihoPDIqMUtEWl89LnkxIjUq",
+                    "code": ""
+                },
+                {
+                    "pan": "123",
+                    "linkEnc": "LDs3QkMIGXw+IzJldGt3PyJcHlFZPmYnai8qOmkqNVdCS0I7IDoi",
+                    "code": "6666"
+                }
+            ],
+            "marks": [],
+            "hot": 0
+        },
+        {
+            "id": 3,
+            "title": "DiskFreezz 磁盘清理工具教程",
+            "cat": "电脑软件",
+            "format": "DOCX",
+            "size": "860 KB",
+            "pages": 15,
+            "tags": [],
+            "pinned": 0,
+            "views": 542,
+            "date": "2026-09-15",
+            "thumb": "",
+            "excerpt": "手把手教你用 DiskFreezz 扫描大文件、清理系统缓存、生成磁盘占用报告，含自定义排除目录与定时清理任务的配置示例。",
+            "appcode": "",
+            "pans": [
+                {
+                    "pan": "quark",
+                    "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihoPS08KFRCV1MpMw==",
+                    "code": "df99"
+                },
+                {
+                    "pan": "baidu",
+                    "linkEnc": "LDs3QkMIGXw5NStlJzgtKzYcU11bfDp7dC8sKi8pMVdVSExheWZz",
+                    "code": "2026"
+                }
+            ],
+            "marks": [],
+            "hot": 0
+        },
+        {
+            "id": 4,
+            "title": "ALMRun 快速启动器配置指南",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "size": "1.2 MB",
+            "pages": 18,
+            "tags": [],
+            "pinned": 0,
+            "views": 388,
+            "date": "2026-09-12",
+            "thumb": "",
+            "excerpt": "介绍 ALMRun 的快捷键绑定、自定义命令、插件安装与多显示器适配，帮助你把常用软件、文件夹与脚本全部收纳进一个启动面板。",
+            "appcode": "",
+            "pans": [
+                {
+                    "pan": "quark",
+                    "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihoOCgiMUdeH1EmIDAg",
+                    "code": ""
+                },
+                {
+                    "pan": "uc",
+                    "linkEnc": "LDs3QkMIGXwtJiw9IHcxLG1RXh1FfC07JmYkNSk9Nlw=",
+                    "code": "alm1"
+                }
+            ],
+            "marks": [],
+            "hot": 0
+        },
+        {
+            "id": 5,
+            "title": "PixWit 图片批量处理实战手册",
+            "cat": "手机软件",
+            "format": "XLSX",
+            "size": "640 KB",
+            "pages": 12,
+            "tags": [],
+            "pinned": 0,
+            "views": 276,
+            "date": "2026-09-10",
+            "thumb": "",
+            "excerpt": "覆盖 PixWit 的批量压缩、格式转换、水印添加与 EXIF 清理功能，附参数对照表与不同场景下的推荐配置方案。",
+            "appcode": "",
+            "pans": [
+                {
+                    "pan": "quark",
+                    "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihoKS03NFtEH14yJzAnJCoy",
+                    "code": "pw77"
+                },
+                {
+                    "pan": "baidu",
+                    "linkEnc": "LDs3QkMIGXw5NStlJzgtKzYcU11bfDp7dDssITMmNx9YU1g3KzsqIA==",
+                    "code": ""
+                }
+            ],
+            "marks": [],
+            "hot": 0
+        },
+        {
+            "id": 6,
+            "title": "everything软件怎么样",
+            "cat": "电脑软件",
+            "format": "DOCX",
+            "cover": "",
+            "excerpt": "everything软件怎么样",
+            "size": "",
+            "pages": 5,
+            "views": 0,
+            "date": "2026-10-08",
+            "marks": [],
+            "pinned": 0,
+            "hot": 0,
+            "status": 1,
+            "tags": [],
+            "pans": [
+                {
+                    "pan": "quark",
+                    "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihobj4mMx9dU1gmKDg=",
+                    "code": ""
+                }
+            ],
+            "linkEnc": "LDs3QkMIGXw5NStlNCwlPSgcU1wZIGYwKihobj4mMx9dU1gmKDg="
+        },
+        {
+            "id": 7,
+            "title": "测试文章000000",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "cover": "",
+            "excerpt": "测试文章000000",
+            "size": "",
+            "pages": 0,
+            "views": 0,
+            "date": "2026-10-08",
+            "marks": [],
+            "pinned": 0,
+            "hot": 0,
+            "status": 1,
+            "tags": [],
+            "pans": [],
+            "linkEnc": ""
+        },
+        {
+            "id": 8,
+            "title": "测试位置00008",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "cover": "",
+            "excerpt": "测试位置00008",
+            "size": "",
+            "pages": 6,
+            "views": 0,
+            "date": "2026-10-08",
+            "marks": [],
+            "pinned": 0,
+            "hot": 0,
+            "status": 1,
+            "tags": [],
+            "pans": [],
+            "linkEnc": ""
+        },
+        {
+            "id": 9,
+            "title": "测试分钟",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "cover": "",
+            "excerpt": "测试分钟",
+            "size": "",
+            "pages": 0,
+            "views": 0,
+            "date": "2026-10-08",
+            "marks": [],
+            "pinned": 0,
+            "hot": 0,
+            "status": 1,
+            "tags": [],
+            "pans": [],
+            "linkEnc": ""
+        },
+        {
+            "id": 10,
+            "title": "测试为啥",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "cover": "",
+            "excerpt": "测试为啥",
+            "size": "",
+            "pages": 0,
+            "views": 0,
+            "date": "2026-10-08",
+            "marks": [],
+            "pinned": 0,
+            "hot": 0,
+            "status": 1,
+            "tags": [],
+            "pans": [],
+            "linkEnc": ""
+        },
+        {
+            "id": 11,
+            "title": "测试但是",
+            "cat": "电脑软件",
+            "format": "PDF",
+            "cover": "",
+            "excerpt": "测试但是",
+            "size": "",
+            "pages": 0,
+            "views": 0,
+            "date": "2026-10-08",
+            "marks": [],
+            "pinned": 0,
+            "hot": 0,
+            "status": 1,
+            "tags": [],
+            "pans": [],
+            "linkEnc": ""
+        }
+    ]
+}
