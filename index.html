@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小雷文档库 - 求知探索 乐于分享</title>
+    <link rel="stylesheet" href="style.css?v=20261008c">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+    <script>
+    /* 提前应用主题，避免刷新时白屏闪一下 */
+    (function () {
+        try {
+            var t = localStorage.getItem('docTheme');
+            if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+        } catch (e) {}
+    })();
+    </script>
+</head>
+<body class="has-fixed-foot">
+
+    <header class="topbar">
+        <div class="wrap topbar-inner">
+            <div class="logo" id="siteName">小雷文档库</div>
+            <div class="topbar-right">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索文档标题、简介...">
+                    <button id="searchBtn">搜索</button>
+                </div>
+                <button class="theme-btn" id="themeBtn" title="切换白天/黑夜模式" aria-label="切换主题">
+                    <span class="t-ico sun">☀️</span>
+                    <span class="t-ico moon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap main-stack">
+
+        <!-- 模块 1：轮播图 -->
+        <section class="mod banner-mod" id="bannerMod">
+            <div class="banner-wrap">
+                <div class="banner-track" id="bannerTrack"></div>
+                <button class="banner-arrow left" id="bannerPrev" aria-label="上一张">‹</button>
+                <button class="banner-arrow right" id="bannerNext" aria-label="下一张">›</button>
+                <div class="banner-dots" id="bannerDots"></div>
+            </div>
+        </section>
+
+        <!-- 模块 2：滚动公告 -->
+        <section class="mod notice-mod" id="noticeMod">
+            <span class="notice-ico">📢</span>
+            <div class="notice-view">
+                <ul class="notice-list" id="noticeList"></ul>
+            </div>
+        </section>
+
+        <!-- 模块 3：分类导航（副标题已移除） -->
+        <section class="mod hero-mod">
+            <div class="cats" id="cats"></div>
+        </section>
+
+        <!-- 模块 4：文档列表 -->
+        <section class="mod list-mod">
+            <div class="list-head">
+                <span id="countText">共 0 篇文档</span>
+            </div>
+            <div class="grid" id="grid"></div>
+            <div class="empty" id="empty" style="display:none;">没有找到相关文档</div>
+            <div class="pager" id="pager" style="display:none;"></div>
+        </section>
+
+    </main>
+
+    <footer class="foot">
+        <div class="foot-inner">
+            <!-- 友情链接：物理放进页脚，随页脚一起固定吸底 -->
+            <section class="mod links-mod" id="linksMod" style="display:none;">
+                <div class="links-head">友情链接</div>
+                <div class="links-list" id="linkList"></div>
+            </section>
+
+            <div class="foot-card">
+                <p>本站资源仅供学习交流使用，版权归原作者所有</p>
+                <p class="copy" id="footContact"></p>
+                <p class="beian" id="footBeian"></p>
+            </div>
+
+            <!-- 返回顶部：绝对定位于 foot-inner 右上角外侧，天然与主体右端对齐 -->
+            <button class="to-top" id="toTop" title="返回顶部" aria-label="返回顶部">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                     stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 19V5M5 12l7-7 7 7"/>
+                </svg>
+            </button>
+        </div>
+    </footer>
+
+    <!-- 详情弹窗 -->
+    <div class="modal-mask" id="modal">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="lockgate.js"></script>
+    <script src="app.js?v=20261008c"></script>
+</body>
+</html>
