@@ -1,0 +1,83 @@
+{
+    "site": {
+        "name": "小雷文档库",
+        "slogan": "",
+        "contact": "517383843@qq.com",
+        "icp": "",
+        "ga": "",
+        "pageSize": 10
+    },
+    "bannerOn": 1,
+    "bannerInterval": 4000,
+    "banners": [
+        {
+            "title": "7-zip 完整使用手册",
+            "desc": "安装、右键菜单、分卷与加密压缩、命令行用法全解析",
+            "link": "",
+            "img": "",
+            "emoji": "📘",
+            "bg": "linear-gradient(120deg, #667eea 0%, #764ba2 100%)"
+        },
+        {
+            "title": "Everything 搜索技巧合集",
+            "desc": "正则、通配符、按日期大小筛选，局域网共享索引实战",
+            "link": "",
+            "img": "",
+            "emoji": "🔍",
+            "bg": "linear-gradient(120deg, #7c5cff 0%, #d711ff 100%)"
+        },
+        {
+            "title": "全站文档免费下载",
+            "desc": "扫码获取提取码，填写验证后即可拿到下载地址",
+            "link": "",
+            "img": "",
+            "emoji": "🎁",
+            "bg": "linear-gradient(120deg, #0d9488 0%, #2f81f7 100%)"
+        }
+    ],
+    "noticeOn": 1,
+    "notices": [
+        {
+            "text": "🎉 文档下载站上线，全部文档免费开放下载",
+            "link": ""
+        },
+        {
+            "text": "📌 下载方式：扫码获取提取码 → 本页填写验证 → 解锁下载地址",
+            "link": ""
+        },
+        {
+            "text": "⏰ 提取码有效期 30 分钟，过期请重新扫码获取",
+            "link": ""
+        }
+    ],
+    "marks": [
+        {
+            "key": "pinned",
+            "name": "置顶",
+            "color": "#e5484d",
+            "bg": "#fff1f0"
+        },
+        {
+            "key": "hot",
+            "name": "热门",
+            "color": "#d46b08",
+            "bg": "#fff7e6"
+        },
+        {
+            "key": "m91ee6a",
+            "name": "免费",
+            "color": "#18a058",
+            "bg": "#e6f7ee"
+        }
+    ],
+    "links": [
+        {
+            "name": "小雷工具箱",
+            "url": "https:\/\/tool.xllfx.com\/"
+        },
+        {
+            "name": "小雷导航",
+            "url": "https:\/\/nav.xllfx.com\/"
+        }
+    ]
+}
